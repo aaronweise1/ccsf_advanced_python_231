@@ -9,4 +9,4 @@ x = """/users/abrick/pr/231/2625/w5.py
 
 lines = x.splitlines()
 for i in lines:
-    print('cp '+ i + ' /students/aweise/homework/homework12/peer_review_hw12') #DON'T FORGET TO CHANGE THIS TOO
+    print('cp '+ i + ' /students/aweise/ccsf_advanced_python_231/homework/homework12/peer_review_hw12') #DON'T FORGET TO CHANGE THIS TOO
