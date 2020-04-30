@@ -1,4 +1,5 @@
-# Syllabus
+# Syllabus 
+CCSF Advanced Python 231
 
 1. Comprehensions
 2. Functional Model
