@@ -1,0 +1,13 @@
+5k Runs correctly. I like that you added a counter. 
+
+ij Doesn't run correctly. Deck needs to be shuffled. You're comparing suits, not card values. Your re-written code adds lots of dupelicate code. I don't blame you, I almost went this route!
+
+np Code works! You found everything that I found. Good job =)
+
+r6 Looks like everything works properly. Tested output and checked for more bugs, looks good!
+
+tu Looks good! One nit: You didn't need to convert to int since it's already an int (retrieved index returns an int)
+
+zm Almost had it all! When cards are tied, the bonus should increment by one, not by scoreA
+
+zn Line 37 - bonus should increment by one, not by scoreA

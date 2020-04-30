@@ -1,0 +1,14 @@
+3y Easily read code. Get's the correct answer. Does not utilize generators though. Also nit: I would suggest another way to extract the timestamp in future programs rather than list splitting
+
+6g Super clean. I like it. Instead of manually calculating seconds, you can use .total_seconds()
+
+hi Gets the right output. You compute a lot of stuff and throw them into variables, but don't end up using them (ex: dateTime). You also manually calculate seconds, then also use .total_seconds(). If you're going to run a check, I'd say it'd be best to pull that out in a separate function
+
+jv Interesting and unique solution to create a list of hr, min, sec. Simple and effective. Nit: Next time, I'd say create a dict ['hour':1, 'min':29, 'sec':34] to keep things more functional
+
+sz Clean. Correct solution. You compute dateTime, but never use the variable afterwards. 
+
+wf You need to convert your time into seconds since midnight. Basically have it, just need to subtract 00:00:00 and convert to seconds.
+
+zm Get an error when running (removing the read bytes and making it just read fixes it). Program returns (way) more than 10 events. I'd also suggest finding a more programatic way than utilizing a specific timezone to identify the timestamp; there are -0800 timestamps that would not be captured with this program
+

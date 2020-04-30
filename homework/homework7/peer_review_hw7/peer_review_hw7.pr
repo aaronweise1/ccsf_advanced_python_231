@@ -1,0 +1,13 @@
+ju You test for subtract, but not addition of dates. You also introduce a lot of different elements to your tests, e.g., you're returning a string while testing for datetime functionality. I don't think this is necessary
+
+rs "Ran 0 tests in 0.000s" - You're not actually running a unit test here. You need to assert assertEqual() instead of return. I like that you declared dates at the beginning as test cases, I'd suggest using a setUp() for your test cases next time
+
+tt Easy to read and robust testing. Well done! I'd suggest declaring your test cases in a setUp() function next time to save you time in re-writing new test cases + more readability
+
+ww Test works, good job! Couple things: 1) I like that you pre-declared your test cases in the a,b,c variables. Next time you can do it within your Test class with the setUp() function. 2) I'd suggest you make your tests more robust next time. Ex: a+b and assert for a TypeError.
+
+x8 Unit test works, but you're not testing the datetime functions. This being said, you're clearly demonstrating your knowledge of how to create a unit test. Next time, I'd suggest you declare test cases in a setUp() function =)
+
+xf Good use of unittest.main(verbosity=2). Unit test works...for now, but will break next year. To test the functions that you created in the num_year class, you would need to generate the current year as a test case to check against your functions.  
+
+z9 You demonstrate your knowledge of how to build a unit test and I love that you're relating this assignment to current events. I would suggest you make future unit tests more robust, testing for more use cases e.g., Ex: a+b and assert for a TypeError. Also for readability and cleanliness, you can declare test cases in a setUp() function at the start of your class

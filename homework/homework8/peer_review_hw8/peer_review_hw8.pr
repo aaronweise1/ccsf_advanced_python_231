@@ -1,0 +1,13 @@
+7a Your code is a little difficult to follow. It doesn't seem like you made a decorator for the print function and only made a decorator to keep track of the function calls. This being said, I like the direction you went with creating a class for the function calls. It would be awesome if you can implement the increment within the class as well.
+
+69 Doesn't satisfy the five function call max requirement. You get the right output for the >10 though. Definitely demonstrating that you know how to apply decorators. Next level challenge: decorate the print() function itself instead of creating a testMe() function around it =)
+
+dj Super clean and well written. Has the correct output for both homework conditions. Great job! Expert challenge: decorate the print() function itself next time instead of creating a print_stuff() function around it =)
+
+tm Easy to read code. You get the correct output. Good work! Nit: I'd break out the 5 function calls and 10 letter minimum into two different wrappers. This doesn't change your output, but makes your code more modular.
+
+tp Your code looks good to me! I tested it out and it iterates through properly from my IDE. Good job =)
+
+u6 I like how you implemented the count limit by passing in the limit in the decorator syntaxt. Nit: I'd split the two different decorator functionalities next time into two separate decorators
+
+va Lots of bugs in the code and doesn't actually satisfy the homework requirements. 

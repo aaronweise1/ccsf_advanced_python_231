@@ -1,0 +1,13 @@
+9d Correct output and I like the use of regex. Throws error when no file passed. wrap(s) isn't actualy a generator function since you iterate through the entire line before the yield
+
+ad Throws error when no file passed. Wrapping doesn't handle newlines/new paragraphs
+
+cd Wrapping doesn't handle newlines/new paragraphs. Throws errors when no file passed. Would love to see some inline comments as the code could be a little more readable (e.g., the reason for the nested loops is not immediately apparent)
+
+nf Nice one liner. Fun challenge: make the whole program one line ;)
+
+vn I like the check for no files passed. I don't think there is a generator function since world_list is already computed before you yield
+
+yf Doesn't print out word wrapped, but you called that out. 
+
+yv Correct output. I like that you handle multiple paragraphs. Good job!

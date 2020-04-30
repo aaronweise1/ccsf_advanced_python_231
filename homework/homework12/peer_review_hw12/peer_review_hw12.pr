@@ -1,0 +1,13 @@
+hc Concurrency looks good! When I pass through a file encoded in utf-8, it still returns 'Not Utf-8'
+
+vg Index error when no file passed. Your concurrency looks good =). Nit: you can check the entire file for utf-8 instead of iterating through each line individually
+
+vj Great code. Super simple and effective. Nit: define your function, then declare your pool
+
+w5 I like how you limited the max workers. You pass through your own files rather than letter me pass through files as an argument. Also you don't check for utf-8, rather just return the string representation of the object
+
+wf You called out that this is incomplete. I think you might be overcomplicating your solution ;) I'd suggest watching https://www.youtube.com/watch?v=IEEhzQoKtQU if you have the time
+
+x3 Clean code and very readable. Works great! Only feedback: Check for handling an argument passed through that's not a file
+
+y7 I like the multiple checks and you implement concurrency well. You don't accept files passed through as an argument and don't actually open the files to check for UTF-8

@@ -1,0 +1,13 @@
+3f Good and clean. Produces the correct result. The one-line statement is a bit long, maybe break it up to multiple lines for readability. Nit: To make your list declaration cleaner, you can write '[item for item in ...]', versus 'list(item for item in...)'
+
+ru Keeping the program to one line makes it a little more difficult to read. Breaking it down to multiple lines will make it much more readable. The output is incorrect. I believe it's because of your 'and len(word) > 2' condition. A word with 1 or 2 letters can still be a palindrome. ex: A or BB; both can be reversed and still be the same. You have unnecessary type conversions. You first create a list, then convert it to a set, then convert it back to a list. You can remove the list(set(...)) and still return the same result
+
+5c Returns incorrect result. I think because it's adding '' as an extra element to c. The code is easy to read, but maybe broken up a little too much. It might make more sense to combine the reverse and palindrome check into one.
+
+gx Clean and easy to read for loop. Produces correct result.
+
+ka Good and clean. Easy to read. Produces correct result
+
+uv Produces correct result. Single line is hard to read. 'ln[::-1].strip('\n')' is an unnecessary reverse and strip operation; you can just count the result
+
+ys Good and clean. Easy to read on a single line. Produces correct result.

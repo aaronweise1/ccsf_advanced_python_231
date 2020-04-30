@@ -1,0 +1,13 @@
+2h Produces curvature of a sine wave, but manually printed and does not satisfy the single statement requirement
+
+3w Produces curvature of a sine wave, but uses multiple statements and declarations
+
+9s Produces curvature with a single statement. Easy to read
+
+nc Gets the curve, but could simplify to a single statement rather than multiple embedded loops
+
+qa Clean and easy to read. Prints the curve successfully
+
+w5 Hard to follow and not very readble. Produces the curve
+
+z5 Does not print sine wave. Can be reduced down to one statement

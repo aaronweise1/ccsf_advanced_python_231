@@ -1,0 +1,13 @@
+9y Code is a bit complicated and it doesn't seem to run the file when passed as an argument.
+
+69 I get a permission denied when I try to run my tester program, but I don't think that's your fault. Code looks good! Only nit would be putting less in if __name__=="__main__" and create a function to call to
+
+gv Program just prints arguments passed in. Also it assumes that more than one argument is passed and fails if there's only one
+
+ie Code looks good, but when I try to run my tester program, it says that it doesn't exist. 
+
+jc Close! I was getting an error when running my tester program because you insert a comma between the arguments. We don't need to put commas between arguments when running from command line
+
+t4 Wrong homework assignment submitted. You submit your http one ;) Maybe reach out to the prof?
+
+xg Got a permission denied. Not your fault, I think Hills prevents me from running my tester program. I like how simple your program is though. Would love to see it in action

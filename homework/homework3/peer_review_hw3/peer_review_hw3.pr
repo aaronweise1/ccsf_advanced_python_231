@@ -1,0 +1,7 @@
+3v Returns proper output. Nit: Can clean up the output, e.g., there's an open bracket, but no close
+hn Output looks good. I like the use of regex. Nit: break up into different functions for more readable code
+mu I like the one-line generator. As you called out, the try/except isn't necessary
+t9 Incorrect output. The generator function should yield for each result, not create the whole list, then yield a single result
+tp Clean generator code. Correct output. Short and sweet, good job!
+u2 Returns IP with the timestamp and eventually breaks down when we get to -0800; you can extract just the TS with regex or split(). my_gen function isn't needed; timestamp is already a generator object
+uh Returns correct output. Clean and easy to read code. 'timestamp= timestamp_generator()' isn't needed; you can next() the function directly
