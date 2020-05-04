@@ -1,0 +1,14 @@
+6h Simple and clean code. Works great! Only nit: When I pass through a file path that doesn't exist, it fails
+
+cq Code works. It outputs a json file (correctly) instead of printing the json. Nit: More comments and/or break up your function so it's not doing too many different things in one func
+
+ei Looks good! Couple nits: 1) I wouldn't remove the headers. These are super useful in a json file. 2) indent=4 for readability
+
+k5 Error when no file passed. Works great, but you over-engineered your csv reader bit. You could have gone straight from each row in the reader to json.dumps ;)
+
+v4 Code is a bit messy and difficult to read and follow. I recommend indent=4 for json readability
+
+vu Error if no file is passed and it's specific to just the test file provided in comments. You have an unused variable as well. I think you were overthinking this =); json.dumps(row) in your loop would have been simpler and made this code work for any csv passed
+
+wc Get an error when no file passed. Almost got the correct algorithm! Instead of csv.reader, use csv.DictReader. Nit: indent=4 is your friend for readability
+
